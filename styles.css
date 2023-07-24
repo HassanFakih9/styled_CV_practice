@@ -1,0 +1,154 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-display: swap;
+
+}
+
+.headerstyle {
+    background-color: rgb(11, 80, 112);
+    color: white;
+    height: fit-content;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    overflow: auto;
+
+
+}
+
+.header-text {
+    width: 70%;
+
+}
+
+.header-image {
+
+    border-radius: 50%;
+    
+    height: 200px;
+    width: 200px;
+    border: 3px solid rgb(35, 35, 228);
+    flex-basis: 5%;
+   margin-top: 1%;
+     margin-bottom: 1%;
+   margin-right: 10%;
+
+
+}
+
+.li-style {
+    /* display: inline; */
+    /* margin-left: 5%; */
+
+}
+
+.ul-style {
+    margin-top: 0px;
+    background-color: rgb(2, 38, 54);
+    color: white;
+    height: 30px;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     list-style: none;
+     overflow: auto;
+    /*flex-direction: row;*/
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    overflow: auto;
+}
+
+.leftdivision {
+    width: 50%;
+    overflow: auto;
+}
+
+.rightdivision {
+    width: 50%;
+    overflow: auto;
+}
+
+.container h1 {
+    text-decoration: underline;
+    color: rgb(7, 62, 85);
+}
+
+table {
+    height: 140px;
+    width: auto;
+    margin-right: 5%;
+    
+}
+
+table tr {
+    height: 25%;
+    
+}
+
+table td {
+
+    background-color: rgba(85, 85, 81, 0.932);
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.mytext{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 8%;
+    
+}
+@media screen and (max-width: 700px) {
+    .container {
+      flex-direction: column;
+      margin:  0;
+    }
+    .headerstyle {
+        width:100%;
+        margin:  0px;
+        padding-left: 0px;
+        text-align: center;
+    }
+    .ul-style{
+        flex-direction: column; 
+        height: fit-content;
+        margin:  0px;
+    }
+    .header-image{
+        display: none;
+    }
+    
+.header-text {
+    width: 100%;
+
+}
+.leftdivision{
+    text-align: center;
+    width:100%;
+}
+.rightdivision{
+    text-align: center;
+    width:100%;
+}
+table tbody{
+    display: flex;
+    /* box-sizing: border-box; */
+    flex-direction: column;
+    align-items: center;
+
+}
+table tr {
+    height: 25%;
+    /* width:fit-content; */
+    /* box-sizing: border-box; */
+    /* display: flex; */
+    
+}
+ 
+}
+
+  
